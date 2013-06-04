@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: normal;
+  vertical-align: baseline;
+
+}
+
+body {
+  color: #888888;
+  font-family: Arial,Helvetica,sans-serif;
+  line-height: 35px;
+}
+
+#bodychild {
+    border-top: 20px solid #2C323C;
+       width: 100%;
+}
+#logo{
+	padding:0;
+	}
+#header {
+	
+  height: 115px;
+  width: 960px;
+	margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+
+#callus {
+	color: #009;
+	float: right;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 20px;
+	line-height: 23px;
+	margin-right: 35px;
+	margin-top: -100px;
+}
+
+#navigation {
+	
+	background-color:#009;
+	margin: auto;
+  height: 53px;
+  width: 960px;
+	position:relative;
+	padding:0;
+}
+#topnav{
+	
+  border: 0 none;
+  font-size: 100%;
+  margin: 10px;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: bottom;
+}
+#navigation ul {
+  float: right;
+	list-style: none outside none;
+  list-style-type: none;
+	text-decoration:none;
+}
+
+#navigation ul li {
+  display: inline-block;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  list-style: none outside none;
+  text-align: center;
+	background:no-repeat;
+	text-decoration:none;
+	margin-top: 4px;
+}
+
+#navigation li {
+	
+  padding-left: 0px;
+  padding-right: 70px;
+  padding-top: 0px;
+	 list-style: none outside none;
+ 
+	margin-top: 4px;
+}
+
+#topnav ul li a {
+color: #FFF;
+text-decoration:none;
+ text-transform: uppercase;
+ font-size: 14px;
+
+
+}
+
+#centercontainer {
+  
+ 
+  	margin: 0 auto;
+  position: relative;
+  width: 940px;
+
+	}
+
+	
+  #centercontainer li{
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 0px;
+  list-style: square;
+  list-style-position: inside;
+  margin-top: 3px;
+
+  }
+
+  #contactform{
+ width: 300px; 
+  }
+
+
+.image{
+  display:block;
+  max-width: 100%;
+  position: relative;
+}
+
+#flex-caption {
+	position: absolute;
+	right:2%;
+	text-align: right;
+	top: 10%;
+	width: 60%;
+}
+#flex-caption h1 {
+  font-family:inherit;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 110px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+
+#address{
+left: 140px;
+position: relative;
+top: -210px;
+ 
+}
+
+#form {
+
+padding:0px;
+margin: 0px;
+border: 0px;
+position:relative;
+top: -80px;
+}
+
+#form textarea {
+  width: 228px;
+  
+}
+
+#map{
+width: 400px;
+height: 20px;
+
+
+left: 450px;
+top: -517px;
+position: relative;
+}
+#map h3{
+
+  font-style:oblique;
+}
+
+
+
+
+:focus{
+  outline: medium none;
+}
+
+
+#footer {
+	background-color:#009;
+	height: 43px;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	clear:both;
+	
+}
+
+#footer_right ul {
+  list-style: none outside none;
+	text-decoration:none;
+  position: relative;
+
+}
+
+#footer_right ul li {
+	float: right;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	width: 960px;
+	position: relative;
+	border-left: 2px;
+  margin: 0px;
+	padding: 0px;
+
+
+
+}
+#footer_right ul li p{
+padding-left: 12px;
+padding-bottom: 10px;
+color: #FFF;
+
+}
+
+

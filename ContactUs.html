@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" title="default"/>
+    <link rel="stylesheet" type="text/css" href="alter.css" title="alter"/>
+    <link rel="print stylesheet" type="text/css" href="print.css" media="print"/>
+</head>
+
+
+<body>
+<div style="position:relative">
+    <div id="bodychild">
+
+        <form action="#">
+            <p>
+                <input type="button" class="typeBtn" value="A" id="default"/>
+                <input type="button" class="typeBtn2" value="A+" id="alter"/>
+            </p>
+        </form>
+
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo">
+                    <a href="homepage.html"><img width="216" height="115" src="images/logo.jpg" alt="Ignition"/></a>
+                </div>
+                <div id="callus">
+                    <h3> Call us Now!
+                        <br/>
+                        80000 0000</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="navigation">
+    <div id="topnav">
+        <ul>
+            <li><a href="HomePage.html" title="Home Page">Home</a></li>
+            <li><a href="TheCompany.html">Why Us</a></li>
+            <li><a href="ThePeople.html">The Team</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Clients.html">Clients</a></li>
+            <li><a class="cross-link" href="ContactUs.html">Contact us</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+<div id="centercontainer">
+
+    <a href="ContactUs.html"><img src="images/contactus.jpg" alt="Ignition"/></a>
+
+
+    <div id="address">
+
+        <h3> Our Address:</h3>
+        <h4> Ignition - integrated Ideas People Ltd</h4>
+        <h4> BAGGOT COURT, DUBLIN 2</h4>
+        <h4> Telephone: 01 0000000</h4>
+        <h4> Fax: 01 00000000</h4>
+
+    </div>
+
+    <div id="form">
+        <h2> Contact Form:</h2>
+
+        <form action="mailto:vcbinu@hotmail.com" id="userForm" onsubmit="return validateFormOnSubmit(this)" method="post"/>
+        <input type="text" onfocus="if (this.value == &quot;FullName&quot;) {this.value = &quot;&quot;; }"
+               onblur="if (this.value == &quot;&quot;) {this.value = &quot;FullName&quot;}" class="text-input"
+               value="FullName" size="35" id="fullName" name="username"/>
+        <br class="clear"/>
+    </br>
+
+        <input type="text" onfocus="if (this.value == &quot;Email&quot;) {this.value = &quot;&quot;; }"
+               onblur="if (this.value == &quot;&quot;) {this.value = &quot;Email&quot; }" class="text-input"
+               value="Email" size="35" id="email" name="email"/>
+        <br class="clear"/>
+    </br>
+        <input type="text" onfocus="if (this.value == &quot;Phone&quot;) {this.value = &quot;&quot;; }"
+               onblur="if (this.value == &quot;&quot;) {this.value = &quot;Phone&quot; }" class="text-input"
+               value="Phone" size="35" id="phone" name="phone"/>
+        <br class="clear"/>
+    </br>
+        <textarea id="msg" class="text-input" name="msg" rows="7" cols="50"></textarea>
+        <br class="clear"/>
+    </br>
+        <input id="submit_btn" class="button mini" type="submit" value="Send" name="submit"/>
+        <br class="clear"/>
+        <br/>
+
+    </div>
+    </form>
+      <div id="map">
+          <h3>Location on map:</h3>
+          <a href="http://www.gocode.ie/L2X2329?Format=FullSize&amp;">
+              <img border="0" title="" alt="" src="images/gocodes.jpg"/>
+          </a>
+          <br/>
+      </div>
+
+</div>
+
+
+
+
+
+
+<div id="footer">
+    <div id="footer_right">
+        <ul>
+            <li>
+                <p>Copyright 2012 Ignition - Integrated Ideas People Limited | All rights reserved.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="validateform.js"></script>
+</body>
+</html>
